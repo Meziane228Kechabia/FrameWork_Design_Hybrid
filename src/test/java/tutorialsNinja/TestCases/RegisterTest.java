@@ -32,6 +32,7 @@ public class RegisterTest extends TestBase {
 				dataProp.getProperty("firstname"), dataProp.getProperty("lastname"), Util.emailWithDateTimeStamp(),
 				dataProp.getProperty("telephone"), prop.getProperty("validPassword"),
 				prop.getProperty("validPassword"));
+
 		registerPage = new RegisterPage(driver);
 		Assert.assertTrue(registerPage.verifyNewAccountSuccesfulyCreatedMessage());
 

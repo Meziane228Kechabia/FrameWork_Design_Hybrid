@@ -30,7 +30,7 @@ public class RegisterPage {
 	private WebElement passwordField;
 
 	@FindBy(id = "input-confirm")
-	private WebElement confirmPasswordField;
+	private WebElement confirmPasswordField; 
 
 	@FindBy(xpath = "//input[@type='radio' and @value='0']")
 	private WebElement newsLetterSubscrib;
