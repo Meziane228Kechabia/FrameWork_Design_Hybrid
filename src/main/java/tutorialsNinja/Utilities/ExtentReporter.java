@@ -19,7 +19,7 @@ public class ExtentReporter {
 		// constructor
 		File extentReportFile = new File(
 				System.getProperty("user.dir") + "\\test-output\\ExtentReports\\extentreport.html");
-
+//
 		// Step4: Create the Object of ExtentSparkReporter Class and pass the path of
 		// the file in it's constructor
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
